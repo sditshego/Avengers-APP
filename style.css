@@ -1,0 +1,100 @@
+.gallery img {
+    width: 100%;
+}
+body{
+  font-family: poppins,sans-serif;
+}
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+#menu a{
+    color: #ffffff;
+    font-family: poppins,sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#menu a:hover{
+    color: #5077bd;
+}
+
+/* Stat Bars */
+.stat {
+  margin-bottom: 15px;
+}
+
+.stat span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background-color: #ffffff22;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 18px;
+}
+
+.fill {
+  background: linear-gradient(to right, #44ea8f, #271828);
+  height: 100%;
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* Animation */
+@keyframes fillAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--fill-width);
+  }
+}
+.stat-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.percent {
+  color: #ff0000;
+}
+.card.bio {
+  background-color: #1e1e2f; /* dark navy box */
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+h4{
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
